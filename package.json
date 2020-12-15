@@ -1,0 +1,20 @@
+{
+  "name": "ops-browser",
+  "version": "1.0.0",
+  "description": "Electron browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rangyia/ops-browser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rangyia/ops-browser/issues"
+  },
+  "homepage": "https://github.com/Rangyia/ops-browser#readme"
+}
