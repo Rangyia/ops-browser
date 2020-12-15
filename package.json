@@ -1,20 +1,29 @@
 {
-  "name": "ops-browser",
+  "name": "Electron-Browser",
+  "productName": "Electron Browser",
   "version": "1.0.0",
-  "description": "Electron browser",
+  "description": "A Browser made with Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rangyia/ops-browser.git"
+  "repository": "https://github.com/Buddhilive/Electron-Browser",
+  "keywords": [
+    "Electron",
+    "Browser",
+    "tutorial"
+  ],
+  "author": "Buddhilive",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^13.0.1",
+    "electron-winstaller": "^2.7.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rangyia/ops-browser/issues"
-  },
-  "homepage": "https://github.com/Rangyia/ops-browser#readme"
+  "dependencies": {
+    "electron": "^1.6.2",
+    "jsonfile": "^2.4.0",
+    "material-design-icons": "^3.0.1",
+    "uuid": "^3.0.1"
+  }
 }
